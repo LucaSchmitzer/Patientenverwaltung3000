@@ -1,0 +1,62 @@
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\bin\Release\PA3000.exe.config
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\bin\Release\PA3000.exe
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\bin\Release\PA3000.pdb
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\bin\Release\Dapper.dll
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\bin\Release\DapperExtensions.dll
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\bin\Release\System.Data.SQLite.dll
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\bin\Release\Dapper.xml
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\bin\Release\DapperExtensions.pdb
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\bin\Release\System.Data.SQLite.xml
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\bin\Release\System.Data.SQLite.dll.config
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Release\CreateInsurancePage.g.cs
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Release\CreatePatientPage.g.cs
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Release\SearchInsurancePage.g.cs
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Release\SearchPatientPage.g.cs
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Release\InitialPage.g.cs
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Release\MainWindow.g.cs
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Release\App.g.cs
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Release\PA3000_MarkupCompile.cache
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Release\PA3000_MarkupCompile.lref
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Release\CreateInsurancePage.baml
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Release\CreatePatientPage.baml
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Release\SearchInsurancePage.baml
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Release\SearchPatientPage.baml
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Release\InitialPage.baml
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Release\MainWindow.baml
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Release\PA3000.g.resources
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Release\PA3000.Properties.Resources.resources
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Release\PA3000.csproj.GenerateResource.Cache
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Release\PA3000.exe
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Release\PA3000.pdb
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\bin\Release\PA3000.exe.config
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\PA3000.exe
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\PA3000.pdb
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\bin\Release\PA3000.exe
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\bin\Release\PA3000.pdb
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\bin\Release\Dapper.dll
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\bin\Release\DapperExtensions.dll
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\bin\Release\System.Data.SQLite.dll
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\bin\Release\Dapper.xml
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\bin\Release\DapperExtensions.pdb
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\bin\Release\System.Data.SQLite.xml
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\PA3000.csprojResolveAssemblyReference.cache
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\Pages\AppointmentPage.g.cs
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\Pages\CreateInsurancePage.g.cs
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\Pages\CreatePatientPage.g.cs
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\Pages\SearchInsurancePage.g.cs
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\Pages\SearchPatientPage.g.cs
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\InitialPage.g.cs
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\MainWindow.g.cs
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\App.g.cs
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\PA3000_MarkupCompile.cache
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\PA3000_MarkupCompile.lref
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\Pages\AppointmentPage.baml
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\Pages\CreateInsurancePage.baml
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\Pages\CreatePatientPage.baml
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\Pages\SearchInsurancePage.baml
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\Pages\SearchPatientPage.baml
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\InitialPage.baml
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\MainWindow.baml
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\PA3000.g.resources
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\PA3000.Properties.Resources.resources
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Release\PA3000.csproj.GenerateResource.Cache

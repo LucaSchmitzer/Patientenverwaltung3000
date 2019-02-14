@@ -1,0 +1,160 @@
+c:\users\robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\Initialpage.g.cs
+c:\users\robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\MainWindow.g.cs
+c:\users\robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\App.g.cs
+c:\users\robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\PA3000_MarkupCompile.cache
+c:\users\robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\PA3000_MarkupCompile.lref
+c:\users\robin\documents\visual studio 2017\Projects\PA3000\PA3000\bin\Debug\PA3000.exe.config
+c:\users\robin\documents\visual studio 2017\Projects\PA3000\PA3000\bin\Debug\PA3000.exe
+c:\users\robin\documents\visual studio 2017\Projects\PA3000\PA3000\bin\Debug\PA3000.pdb
+c:\users\robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\Initialpage.baml
+c:\users\robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\MainWindow.baml
+c:\users\robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\PA3000.g.resources
+c:\users\robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\PA3000.Properties.Resources.resources
+c:\users\robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\PA3000.csproj.GenerateResource.Cache
+c:\users\robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\PA3000.exe
+c:\users\robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\PA3000.pdb
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\bin\Debug\Dapper.dll
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\bin\Debug\System.Data.SQLite.dll
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\bin\Debug\Dapper.xml
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\bin\Debug\System.Data.SQLite.xml
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\SearchPatientPage.g.cs
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\SearchPatientPage.baml
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\SearchInsurancePage.g.cs
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\SearchInsurancePage.baml
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\PA3000.csprojResolveAssemblyReference.cache
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\bin\Debug\DapperExtensions.dll
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\bin\Debug\DapperExtensions.pdb
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\CreatePatientPage.g.cs
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\CreatePatientPage.baml
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\CreateInsurancePage.g.cs
+C:\Users\Robin\documents\visual studio 2017\Projects\PA3000\PA3000\obj\Debug\CreateInsurancePage.baml
+C:\Users\Robin\Desktop\PA3000\PA3000\bin\Debug\PA3000.exe.config
+C:\Users\Robin\Desktop\PA3000\PA3000\bin\Debug\PA3000.exe
+C:\Users\Robin\Desktop\PA3000\PA3000\bin\Debug\PA3000.pdb
+C:\Users\Robin\Desktop\PA3000\PA3000\bin\Debug\Dapper.dll
+C:\Users\Robin\Desktop\PA3000\PA3000\bin\Debug\DapperExtensions.dll
+C:\Users\Robin\Desktop\PA3000\PA3000\bin\Debug\System.Data.SQLite.dll
+C:\Users\Robin\Desktop\PA3000\PA3000\bin\Debug\Dapper.xml
+C:\Users\Robin\Desktop\PA3000\PA3000\bin\Debug\DapperExtensions.pdb
+C:\Users\Robin\Desktop\PA3000\PA3000\bin\Debug\System.Data.SQLite.xml
+C:\Users\Robin\Desktop\PA3000\PA3000\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\PA3000.csprojResolveAssemblyReference.cache
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\InitialPage.g.cs
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\MainWindow.g.cs
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\App.g.cs
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\PA3000_MarkupCompile.cache
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\PA3000_MarkupCompile.lref
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\InitialPage.baml
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\MainWindow.baml
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\PA3000.g.resources
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\PA3000.Properties.Resources.resources
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\PA3000.csproj.GenerateResource.Cache
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\PA3000.exe
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\PA3000.pdb
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\Pages\AppointmentPage.g.cs
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\Pages\CreateInsurancePage.g.cs
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\Pages\CreatePatientPage.g.cs
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\Pages\SearchInsurancePage.g.cs
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\Pages\SearchPatientPage.g.cs
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\Pages\AppointmentPage.baml
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\Pages\CreateInsurancePage.baml
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\Pages\CreatePatientPage.baml
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\Pages\SearchInsurancePage.baml
+C:\Users\Robin\Desktop\PA3000\PA3000\obj\Debug\Pages\SearchPatientPage.baml
+D:\PA3000\PA3000\bin\Debug\PA3000.exe.config
+D:\PA3000\PA3000\obj\Debug\PA3000.exe
+D:\PA3000\PA3000\obj\Debug\PA3000.pdb
+D:\PA3000\PA3000\bin\Debug\PA3000.exe
+D:\PA3000\PA3000\bin\Debug\PA3000.pdb
+D:\PA3000\PA3000\bin\Debug\Dapper.dll
+D:\PA3000\PA3000\bin\Debug\DapperExtensions.dll
+D:\PA3000\PA3000\bin\Debug\System.Data.SQLite.dll
+D:\PA3000\PA3000\bin\Debug\Dapper.xml
+D:\PA3000\PA3000\bin\Debug\DapperExtensions.pdb
+D:\PA3000\PA3000\bin\Debug\System.Data.SQLite.xml
+D:\PA3000\PA3000\obj\Debug\PA3000.csprojResolveAssemblyReference.cache
+D:\PA3000\PA3000\obj\Debug\Pages\AppointmentPage.g.cs
+D:\PA3000\PA3000\obj\Debug\Pages\CreateInsurancePage.g.cs
+D:\PA3000\PA3000\obj\Debug\Pages\CreatePatientPage.g.cs
+D:\PA3000\PA3000\obj\Debug\Pages\SearchInsurancePage.g.cs
+D:\PA3000\PA3000\obj\Debug\Pages\SearchPatientPage.g.cs
+D:\PA3000\PA3000\obj\Debug\InitialPage.g.cs
+D:\PA3000\PA3000\obj\Debug\MainWindow.g.cs
+D:\PA3000\PA3000\obj\Debug\App.g.cs
+D:\PA3000\PA3000\obj\Debug\PA3000_MarkupCompile.cache
+D:\PA3000\PA3000\obj\Debug\PA3000_MarkupCompile.lref
+D:\PA3000\PA3000\obj\Debug\Pages\AppointmentPage.baml
+D:\PA3000\PA3000\obj\Debug\Pages\CreateInsurancePage.baml
+D:\PA3000\PA3000\obj\Debug\Pages\CreatePatientPage.baml
+D:\PA3000\PA3000\obj\Debug\Pages\SearchInsurancePage.baml
+D:\PA3000\PA3000\obj\Debug\Pages\SearchPatientPage.baml
+D:\PA3000\PA3000\obj\Debug\InitialPage.baml
+D:\PA3000\PA3000\obj\Debug\MainWindow.baml
+D:\PA3000\PA3000\obj\Debug\PA3000.g.resources
+D:\PA3000\PA3000\obj\Debug\PA3000.Properties.Resources.resources
+D:\PA3000\PA3000\obj\Debug\PA3000.csproj.GenerateResource.Cache
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\bin\Debug\PA3000.exe.config
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\PA3000.exe
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\PA3000.pdb
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\bin\Debug\PA3000.exe
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\bin\Debug\PA3000.pdb
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\bin\Debug\Dapper.dll
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\bin\Debug\DapperExtensions.dll
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\bin\Debug\System.Data.SQLite.dll
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\bin\Debug\Dapper.xml
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\bin\Debug\DapperExtensions.pdb
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\bin\Debug\System.Data.SQLite.xml
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\PA3000.csprojResolveAssemblyReference.cache
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\Pages\AppointmentPage.g.cs
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\Pages\CreateInsurancePage.g.cs
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\Pages\CreatePatientPage.g.cs
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\Pages\SearchInsurancePage.g.cs
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\Pages\SearchPatientPage.g.cs
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\InitialPage.g.cs
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\MainWindow.g.cs
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\App.g.cs
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\PA3000_MarkupCompile.cache
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\PA3000_MarkupCompile.lref
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\Pages\AppointmentPage.baml
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\Pages\CreateInsurancePage.baml
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\Pages\CreatePatientPage.baml
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\Pages\SearchInsurancePage.baml
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\Pages\SearchPatientPage.baml
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\InitialPage.baml
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\MainWindow.baml
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\PA3000.g.resources
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\PA3000.Properties.Resources.resources
+C:\Users\robin.wilhelm\Desktop\PA3000\PA3000\obj\Debug\PA3000.csproj.GenerateResource.Cache
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\bin\Debug\PA3000.exe.config
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\PA3000.exe
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\PA3000.pdb
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\bin\Debug\PA3000.exe
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\bin\Debug\PA3000.pdb
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\bin\Debug\Dapper.dll
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\bin\Debug\DapperExtensions.dll
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\bin\Debug\System.Data.SQLite.dll
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\bin\Debug\Dapper.xml
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\bin\Debug\DapperExtensions.pdb
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\bin\Debug\System.Data.SQLite.xml
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\PA3000.csprojResolveAssemblyReference.cache
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\Pages\AppointmentPage.g.cs
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\Pages\CreateInsurancePage.g.cs
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\Pages\CreatePatientPage.g.cs
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\Pages\SearchInsurancePage.g.cs
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\Pages\SearchPatientPage.g.cs
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\InitialPage.g.cs
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\MainWindow.g.cs
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\App.g.cs
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\PA3000_MarkupCompile.cache
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\PA3000_MarkupCompile.lref
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\Pages\AppointmentPage.baml
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\Pages\CreateInsurancePage.baml
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\Pages\CreatePatientPage.baml
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\Pages\SearchInsurancePage.baml
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\Pages\SearchPatientPage.baml
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\InitialPage.baml
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\MainWindow.baml
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\PA3000.g.resources
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\PA3000.Properties.Resources.resources
+H:\Documents\Visual Studio 2015\Projects\PA3000\PA3000\obj\Debug\PA3000.csproj.GenerateResource.Cache

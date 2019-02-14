@@ -1,0 +1,42 @@
+﻿<Window x:Class="PA3000.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PA3000"
+        mc:Ignorable="d"
+        Title="Patientenanleger3000" Height="720" Width="1000" ResizeMode="NoResize">
+        
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="120px"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50px"/>
+                <RowDefinition Height="30px"/>
+                <RowDefinition Height="40px"/>
+                <RowDefinition Height="40px"/>
+                <RowDefinition Height="40px"/>
+                <RowDefinition Height="30px"/>
+                <RowDefinition Height="40px"/>
+                <RowDefinition Height="40px"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <Canvas Grid.Row="0" Grid.RowSpan="10" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="ForestGreen"/>
+            <Button x:Name="searchPatientBtn" Content="Patient" Margin="10,5,10,0" Grid.Row="2" VerticalAlignment="Top" Height="25" RenderTransformOrigin="0.493,0.978" Click="searchPatientBtn_Click"/>
+
+
+            <Label Grid.Row="5" Content=""  Width="Auto"/>
+            <Button x:Name="searchInsuranceBtn" Content="Krankenkasse" HorizontalAlignment="Left" Margin="10,5,0,0" Grid.Row="6" VerticalAlignment="Top" Width="100" Height="25" RenderTransformOrigin="0.493,0.978" Click="searchInsuranceBtn_Click"/>
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <Canvas VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Background="AliceBlue"/>
+            <Frame x:Name="contentFrame" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Source="Initialpage.xaml" NavigationUIVisibility="Hidden"/>
+        </Grid>
+    </Grid>
+</Window>
