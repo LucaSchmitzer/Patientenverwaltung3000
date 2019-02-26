@@ -25,16 +25,7 @@ namespace PA3000
         public MainWindow()
         {
             InitializeComponent();
-
-            Global.db = new SqliteDatabase("pa3000.sqlite");
-            SqlMapper.AddTypeHandler<DateTime?>(new NullableDateTimehandler());
-            instance = this;
-        }
-
-        private static MainWindow instance;
-        public static MainWindow Get()
-        {
-            return instance;
+            Application.Init(this);
         }
 
         private void searchPatientBtn_Click(object sender, RoutedEventArgs e)
@@ -42,13 +33,9 @@ namespace PA3000
             contentFrame.Source = new Uri("Pages\\SearchPatientPage.xaml", UriKind.Relative);
         }
 
-
-
         private void searchInsuranceBtn_Click(object sender, RoutedEventArgs e)
         {
             contentFrame.Source = new Uri("Pages\\SearchInsurancePage.xaml", UriKind.Relative);
-        }
-
-     
+        }     
     }
 }

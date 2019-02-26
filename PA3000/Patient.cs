@@ -3,87 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Dapper;
-using System.Data.SQLite;
-using System.Data;
+
 
 namespace PA3000
-{
-
-    abstract class IPatientMapper
-    {
-        public abstract Patient SelectbyId(UInt32 id);
-        public abstract void SelectByName(string _name, ref List<Patient> patients);
-        public abstract int Insert(Patient data);
-        public abstract bool UpdateSingle(Patient data);
-    }
-
-    class PatientMapperSqlite : IPatientMapper
-    {  
-        public override int Insert(Patient patient)
-        {
-            if (patient == null)
-                return 0;
-           
-            using (IDbConnection con = Global.db.GetConnection())
-            {
-                return con.Execute("Insert Into Patients(FirstName, LastName, Birthday, InsuranceId, CreatedDate, Country, City, Street, Streetnumber, Zipcode) values(@FirstName, @LastName, @Birthday, @InsuranceId, @CreatedDate, @Country, @City, @Street, @Streetnumber, @Zipcode)", patient);
-            }
-        }
-
-        public static void CreateTable(SQLiteConnection con)
-        {
-            con.Execute("CREATE TABLE IF NOT EXISTS Patients ( PatientId INTEGER PRIMARY KEY, FirstName TEXT, LastName TEXT, Birthday TEXT, CreatedDate NUMERIC, InsuranceId TEXT, Street TEXT, Streetnumber TEXT, Zipcode TEXT, Country TEXT, City TEXT)");
-        }
-
-        public override Patient SelectbyId(UInt32 _id)
-        {
-            using (IDbConnection con = Global.db.GetConnection())
-            {
-                return con.Query<Patient>("Select * Patients WHERE PatientId = @_id", new { _id }).SingleOrDefault();
-            }
-        }
-
-        public override void SelectByName(string _name,ref List<Patient> patients)
-        {
-            using (IDbConnection con = Global.db.GetConnection())
-            {
-                patients.Clear();
-                patients = con.Query<Patient>("Select * from Patients WHERE FirstName like @name OR LastName like @name", new { name = "%" + _name + "%" }).ToList();   
-            }
-        }
-
-        public override bool UpdateSingle(Patient patient)
-        {
-            if (patient == null)
-                return false;
-
-            int rowcount = 0;
-            using (IDbConnection con = Global.db.GetConnection())
-            {              
-                rowcount = con.Execute("Update Patients SET FirstName = @FirstName, LastName = @LastName, Birthday = @Birthday, City = @City, Street = @Street, Streetnumber = @Streetnumber, Zipcode = @Zipcode, Country = @Country , InsuranceId = @InsuranceId WHERE PatientId =@PatientId",patient);                
-            }
-
-            if(rowcount != 1)
-            {
-                // shit happend
-                return false;
-            }           
-
-            return true;
-        }
-    }
-    
+{   
     class Patient
     {
-        public Patient(UInt32 _id)
-        {
-            patientId = _id;
-            dirty = false;
-        }
-
-        public Patient() {dirty = false; }
-
         UInt32 patientId;
         string firstName;
         string lastName;
@@ -95,8 +20,18 @@ namespace PA3000
         string country;
         string zipcode;
         string city;
+
         bool dirty;
-        
+
+        public Patient(UInt32 _id)
+        {
+            patientId = _id;
+            dirty = false;
+        }
+
+        public Patient() { dirty = false; }
+
+
         public UInt32 PatientId
         {
             get

@@ -30,7 +30,7 @@ namespace PA3000
             if (appointment == null)
                 return 0;
 
-            using (IDbConnection con = Global.db.GetConnection())
+            using (IDbConnection con = Application.Db.GetConnection())
             {
                 return con.Execute("Insert Into Appointments( PatientId, Description,  Date) values( @PatientId, @Description, @Date)", appointment);
             }
@@ -38,7 +38,7 @@ namespace PA3000
 
         public override Appointment SelectbyId(UInt32 _id)
         {
-            using (IDbConnection con = Global.db.GetConnection())
+            using (IDbConnection con = Application.Db.GetConnection())
             {
                 return con.Query<Appointment>("Select * Appointments WHERE InsuranceId = @_id", new { _id }).SingleOrDefault();
             }
@@ -46,7 +46,7 @@ namespace PA3000
 
         public override void SelectFromPatient(ref List<Appointment> appointments, UInt32 patientid, DateTime? upperDate, DateTime? lowerDate)
         {
-            using (IDbConnection con = Global.db.GetConnection())
+            using (IDbConnection con = Application.Db.GetConnection())
             {
                 appointments.Clear();
 
@@ -69,7 +69,7 @@ namespace PA3000
                 return false;
 
             int rowcount = 0;
-            using (IDbConnection con = Global.db.GetConnection())
+            using (IDbConnection con = Application.Db.GetConnection())
             {
                 rowcount = con.Execute("Update Appointments SET PatientId = @PatientId, Date = @Date, Description = @Description WHERE AppointmentId = @AppointmentId", appointment);
             }

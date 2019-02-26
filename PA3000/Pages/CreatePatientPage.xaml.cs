@@ -19,13 +19,10 @@ namespace PA3000
     /// Interaktionslogik für CreatePatientPage.xaml
     /// </summary>
     public partial class CreatePatientPage : Page
-    {
-        IPatientMapper mapper;
-
+    {        
         public CreatePatientPage()
         {
             InitializeComponent();
-            mapper = new PatientMapperSqlite();
             UpdateInsuranceCombobox();
         }
 
@@ -33,7 +30,8 @@ namespace PA3000
         private void UpdateInsuranceCombobox()
         {
             List<Insurance> insurances = new List<Insurance>();
-            IInsuranceMapper mapper = new InsuranceMapperSqlite();
+            IInsuranceMapper mapper = Application.Database.GetInsuranceMapper();
+
 
             mapper.SelectAllNames(ref insurances);
             InsuranceCb.Items.Clear();
@@ -71,7 +69,8 @@ namespace PA3000
             date = new DateTime(date.Year, date.Month, date.Day, date.Hour, date.Minute, date.Second, date.Kind);
             patient.CreatedDate = date;
 
-            if(mapper.Insert(patient) == 1)
+            IInsuranceMapper mapper = Application.Database.GetInsuranceMapper();
+            if (mapper.Insert(patient) == 1)
             {
                 MessageBox.Show("Patient wurde angelegt", "Patientenanleger 3000");
             }
@@ -79,7 +78,7 @@ namespace PA3000
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            MainWindow.Get().contentFrame.Source = new Uri("Pages\\SearchPatientPage.xaml", UriKind.Relative);
+            Application.Mainwindow.contentFrame.Source = new Uri("Pages\\SearchPatientPage.xaml", UriKind.Relative);
         }
     }
 }

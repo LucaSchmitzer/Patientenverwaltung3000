@@ -3,94 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Dapper;
-using System.Data.SQLite;
-using System.Data;
+
 
 namespace PA3000
 {
-
-    abstract class IInsuranceMapper
-    {
-        public abstract Insurance SelectbyId(UInt32 id);
-        public abstract void SelectByName(string _name, ref List<Insurance> insurances);
-        public abstract int Insert(Insurance data);
-        public abstract bool UpdateSingle(Insurance data);
-        public abstract void SelectAllNames(ref List<Insurance> insurancenames);
-    }
-
-    class InsuranceMapperSqlite : IInsuranceMapper
-    {
-        public override int Insert(Insurance insurance)
-        {
-            if (insurance == null)
-                return 0;
-
-            using (IDbConnection con = Global.db.GetConnection())
-            {
-                return con.Execute("Insert Into Insurances(Name, Is_Private, Country, City, Street, Streetnumber, Zipcode) values(@Name, @Is_Private, @Country, @City, @Street, @Streetnumber, @Zipcode)", insurance);
-            }
-        }
-
-        public static void CreateTable(SQLiteConnection con)
-        {
-            con.Execute("CREATE TABLE IF NOT EXISTS Insurances( InsuranceId INTEGER PRIMARY KEY, Name TEXT, City TEXT, Street TEXT, Streetnumber TEXT, Zipcode TEXT, Country TEXT, Is_Private INTEGER)");
-        }
-
-        public override void SelectAllNames(ref List<Insurance> insurances)
-        {
-            using (IDbConnection con = Global.db.GetConnection())
-            {
-                insurances = con.Query<Insurance>("Select InsuranceId, Name FROM Insurances").ToList();
-            }
-        }
-
-        public override Insurance SelectbyId(UInt32 _id)
-        {
-            using (IDbConnection con = Global.db.GetConnection())
-            {
-                return con.Query<Insurance>("Select * Insurances WHERE InsuranceId = @_id", new { _id }).SingleOrDefault();
-            }
-        }
-
-        public override void SelectByName(string _name, ref List<Insurance> insurances)
-        {
-            using (IDbConnection con = Global.db.GetConnection())
-            {
-                insurances.Clear();
-                insurances = con.Query<Insurance>("Select * from Insurances WHERE Name like @name", new { name = "%" + _name + "%" }).ToList();
-            }
-        }
-
-        public override bool UpdateSingle(Insurance insurance)
-        {
-            if (insurance == null)
-                return false;
-
-            int rowcount = 0;
-            using (IDbConnection con = Global.db.GetConnection())
-            {
-                rowcount = con.Execute("Update Insurances SET Name = @Name, City = @City, Street = @Street, Streetnumber = @Streetnumber, Zipcode = @Zipcode, Country = @Country, Is_Private = @Is_Private WHERE InsuranceId = @InsuranceId", insurance);
-            }
-
-            if (rowcount != 1)
-            {
-                return false;
-            }
-
-            return true;
-        }
-    }
-
-
     class Insurance
     {
-        Insurance(UInt32 _id)
-        {
-            insuranceId = _id;
-            dirty = false;
-        }
-
         public Insurance() { dirty = false; }
         string street;
         string streetnumber;
@@ -100,8 +18,14 @@ namespace PA3000
         int is_Private;
         UInt32 insuranceId;
         string name;
+
         bool dirty;
 
+        Insurance(UInt32 _id)
+        {
+            insuranceId = _id;
+            dirty = false;
+        }
 
         public UInt32 InsuranceId
         {

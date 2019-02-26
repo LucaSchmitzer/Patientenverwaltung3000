@@ -21,15 +21,12 @@ namespace PA3000
     /// </summary>
     public partial class Initialpage : Page
     {
-
         Patient currentPatient;
-        IPatientMapper mapper;
         static Initialpage instance;
 
         public Initialpage()
         {
             InitializeComponent();
-            mapper = new PatientMapperSqlite();
             instance = this;
         }
 
