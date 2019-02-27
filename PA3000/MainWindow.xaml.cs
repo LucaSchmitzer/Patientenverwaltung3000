@@ -25,7 +25,7 @@ namespace PA3000
         public MainWindow()
         {
             InitializeComponent();
-            Application.Init(this);
+            PatientanlegerApp.Init(this);
         }
 
         private void searchPatientBtn_Click(object sender, RoutedEventArgs e)

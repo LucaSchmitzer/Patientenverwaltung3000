@@ -32,13 +32,14 @@ namespace PA3000
             public UInt32 id { get; set; }
             public string Bezeichnung { get; set; }
         }       
-        
+
+
         private void searchBtn_Click(object sender, RoutedEventArgs e)
         {
             string name = searchTb.Text;
             List<Insurance> insurances = new List<Insurance>();
 
-            Database.IInsuranceMapper mapper = Application.Database.GetInsuranceMapper();
+            Database.IInsuranceMapper mapper = PatientanlegerApp.Db.GetInsuranceMapper();
             mapper.SelectByName(name, ref insurances);
 
             InsuranceDg.Items.Clear();
@@ -77,7 +78,7 @@ namespace PA3000
 
             UpdateModel();
 
-            Database.IInsuranceMapper mapper = Application.Database.GetInsuranceMapper();
+            Database.IInsuranceMapper mapper = PatientanlegerApp.Db.GetInsuranceMapper();
             if (!mapper.UpdateSingle(currentInsurance))
                 MessageBox.Show("Es ist ein Fehler aufgetreten");
 
@@ -188,7 +189,7 @@ namespace PA3000
         }
         private void btCreateInsurance_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow.Get().contentFrame.Source = new Uri("Pages\\CreateInsurancePage.xaml", UriKind.Relative);
+            PatientanlegerApp.Mainwindow.contentFrame.Source = new Uri("Pages\\CreateInsurancePage.xaml", UriKind.Relative);
         }
     }
 }

@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Dapper;
+using System.Data.SQLite;
+using System.Data;
 
 namespace PA3000
 {

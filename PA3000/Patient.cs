@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 
 namespace PA3000
-{   
+{
     class Patient
     {
         UInt32 patientId;
@@ -22,7 +22,7 @@ namespace PA3000
         string city;
 
         bool dirty;
-
+        
         public Patient(UInt32 _id)
         {
             patientId = _id;
@@ -30,7 +30,6 @@ namespace PA3000
         }
 
         public Patient() { dirty = false; }
-
 
         public UInt32 PatientId
         {

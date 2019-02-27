@@ -21,6 +21,7 @@ namespace PA3000
     /// </summary>
     public partial class Initialpage : Page
     {
+
         Patient currentPatient;
         static Initialpage instance;
 
@@ -39,9 +40,7 @@ namespace PA3000
         {
             return currentPatient.PatientId;
         }
-
-
-
+                
         class GridItem
         {
             public UInt32 id { get; set; }
@@ -53,6 +52,8 @@ namespace PA3000
         {
             string name = searchTb.Text;
             List<Patient> patients = new List<Patient>();
+
+            Database.IPatientMapper mapper = PatientanlegerApp.Db.GetPatientMapper();
             mapper.SelectByName(name, ref patients);
 
             patientDg.Items.Clear();
@@ -137,7 +138,7 @@ namespace PA3000
         private void UpdateInsuranceCombobox()
         {
             List<Insurance> insurances = new List<Insurance>();
-            IInsuranceMapper mapper = new InsuranceMapperSqlite();
+            Database.IInsuranceMapper mapper = PatientanlegerApp.Db.GetInsuranceMapper();
 
             mapper.SelectAllNames(ref insurances);
             InsuranceCb.Items.Clear();
@@ -151,7 +152,6 @@ namespace PA3000
                 {
                     InsuranceCb.SelectedItem = insurance;
                 }
-
             }
         }
 
@@ -162,6 +162,7 @@ namespace PA3000
 
             UpdateModel();
 
+            Database.IPatientMapper mapper = PatientanlegerApp.Db.GetPatientMapper();
             if (!mapper.UpdateSingle(currentPatient))
                 MessageBox.Show("Es ist ein Fehler aufgetreten");
 
@@ -243,12 +244,12 @@ namespace PA3000
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow.Get().contentFrame.Source = new Uri("Pages\\CreatePatientPage.xaml", UriKind.Relative);
+            PatientanlegerApp.Mainwindow.contentFrame.Source = new Uri("Pages\\CreatePatientPage.xaml", UriKind.Relative);
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
-        {            
-            MainWindow.Get().contentFrame.Source = new Uri("Pages\\AppointmentPage.xaml", UriKind.Relative);
+        {
+            PatientanlegerApp.Mainwindow.contentFrame.Source = new Uri("Pages\\AppointmentPage.xaml", UriKind.Relative);
         }
     }
 }

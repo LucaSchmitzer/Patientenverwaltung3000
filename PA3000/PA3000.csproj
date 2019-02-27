@@ -68,7 +68,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Appointment.cs" />
+    <Compile Include="Database\IAppointmentMapper.cs" />
+    <Compile Include="Database\IDatabase.cs" />
     <Compile Include="Database\IInsuranceMapper.cs" />
+    <Compile Include="Database\IMapper.cs" />
     <Compile Include="Database\IPatientMapper.cs" />
     <Compile Include="Pages\AppointmentPage.xaml.cs">
       <DependentUpon>AppointmentPage.xaml</DependentUpon>
@@ -79,7 +82,8 @@
     <Compile Include="Pages\CreatePatientPage.xaml.cs">
       <DependentUpon>CreatePatientPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Database\Database.cs" />
+    <Compile Include="Database.cs" />
+    <Compile Include="Sqlite\AppointmentMapperSqlite.cs" />
     <Compile Include="Sqlite\InsuranceMapperSqlite.cs" />
     <Compile Include="Sqlite\PatientMapperSqlite.cs" />
     <Compile Include="Sqlite\SqliteDatabase.cs" />
@@ -123,7 +127,7 @@
     <Compile Include="Pages\SearchPatientPage.xaml.cs">
       <DependentUpon>SearchPatientPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Application.cs" />
+    <Compile Include="PatientenanlegerApp.cs" />
     <Compile Include="InitialPage.xaml.cs">
       <DependentUpon>InitialPage.xaml</DependentUpon>
     </Compile>

@@ -20,11 +20,9 @@ namespace PA3000
     /// </summary>
     public partial class CreateInsurancePage : Page
     {
-        IInsuranceMapper mapper;
         public CreateInsurancePage()
         {
             InitializeComponent();
-            mapper = new InsuranceMapperSqlite();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -46,14 +44,15 @@ namespace PA3000
             insurance.Streetnumber = tbStreetnumber.Text;
             insurance.Zipcode = tbZip.Text;
 
+            Database.IInsuranceMapper mapper = PatientanlegerApp.Db.GetInsuranceMapper();
             mapper.Insert(insurance);
 
-            MainWindow.Get().contentFrame.Source = new Uri("Pages\\SearchInsurancePage.xaml", UriKind.Relative);
+            PatientanlegerApp.Mainwindow.contentFrame.Source = new Uri("Pages\\SearchInsurancePage.xaml", UriKind.Relative);
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            MainWindow.Get().contentFrame.Source = new Uri("Pages\\SearchInsurancePage.xaml", UriKind.Relative);
+            PatientanlegerApp.Mainwindow.contentFrame.Source = new Uri("Pages\\SearchInsurancePage.xaml", UriKind.Relative);
         }
     }
 }

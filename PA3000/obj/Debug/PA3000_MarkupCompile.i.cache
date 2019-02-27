@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\dev\git\pv3000\PA3000\obj\Debug\
+C:\Users\Robin\Patientenverwaltung3000\PA3000\obj\Debug\
 PA3000
 none
 false
 DEBUG;TRACE
-C:\dev\git\pv3000\PA3000\App.xaml
+C:\Users\Robin\Patientenverwaltung3000\PA3000\App.xaml
 7146258958
 
-26620094467
-16329778661
+30-1854273696
+16-1459334403
 Pages\AppointmentPage.xaml;Pages\CreateInsurancePage.xaml;Pages\CreatePatientPage.xaml;Pages\SearchInsurancePage.xaml;Pages\SearchPatientPage.xaml;InitialPage.xaml;MainWindow.xaml;
 
 False

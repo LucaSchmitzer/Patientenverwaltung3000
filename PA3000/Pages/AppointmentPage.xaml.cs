@@ -21,25 +21,10 @@ namespace PA3000.Pages
     public partial class AppointmentPage : Page
     {
         Appointment currentAppointment;
-        IAppointmentMapper mapper;
-        UInt32 patientid;
-        static AppointmentPage instance;
-
-        public static  AppointmentPage Get()
-        {
-            return instance;
-        }
-
-        public void SetPatient(UInt32 patientid)
-        {
-
-        }
 
         public AppointmentPage()
         {
             InitializeComponent();
-            mapper = new AppointmentMapperSqlite();
-            instance = this;
         }
 
         class GridItem
@@ -53,6 +38,8 @@ namespace PA3000.Pages
             UInt32 id = Initialpage.Get().GetPatientId();
 
             List<Appointment> appointments = new List<Appointment>();
+
+            Database.IAppointmentMapper mapper = PatientanlegerApp.Db.GetAppointmentMapper();
             mapper.SelectFromPatient(ref appointments, id, dpUpperDate.SelectedDate, dpLowerDate.SelectedDate);
 
             appointmentGrid.Items.Clear();
@@ -112,6 +99,7 @@ namespace PA3000.Pages
 
             UpdateModel();
 
+            Database.IAppointmentMapper mapper = PatientanlegerApp.Db.GetAppointmentMapper();
             if (!mapper.UpdateSingle(currentAppointment))
                 MessageBox.Show("Es ist ein Fehler aufgetreten");
 
@@ -127,6 +115,7 @@ namespace PA3000.Pages
             app.Description = tbDescription.Text;
             app.Date = dpDate.SelectedDate;
 
+            Database.IAppointmentMapper mapper = PatientanlegerApp.Db.GetAppointmentMapper();
             mapper.Insert(app);          
         }
 
