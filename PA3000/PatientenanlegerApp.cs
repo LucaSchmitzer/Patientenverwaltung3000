@@ -13,8 +13,9 @@ namespace PA3000
         static MainWindow mainwindow;
         static IDataBase db;
 
-        public static void Init(MainWindow mainwindow)
+        public static void Init(MainWindow mwindow)
         {
+            mainwindow = mwindow;
             db = new Sqlite.SqliteDatabase("pa3000.sqlite");
             if(!db.Init())
             {

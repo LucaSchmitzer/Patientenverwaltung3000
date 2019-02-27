@@ -30,7 +30,7 @@ namespace PA3000.Sqlite
 
         public static void CreateTable(SQLiteConnection con)
         {
-            con.Execute("CREATE TABLE IF NOT EXISTS Patients ( PatientId INTEGER PRIMARY KEY, FirstName TEXT, LastName TEXT, Birthday TEXT, CreatedDate NUMERIC, InsuranceId TEXT, Street TEXT, Streetnumber TEXT, Zipcode TEXT, Country TEXT, City TEXT)");
+            con.Execute("CREATE TABLE IF NOT EXISTS Patients ( PatientId INTEGER PRIMARY KEY, FirstName TEXT, LastName TEXT, Birthday TEXT, CreatedDate TEXT, InsuranceId TEXT, Street TEXT, Streetnumber TEXT, Zipcode TEXT, Country TEXT, City TEXT)");
         }
 
         public override Patient SelectbyId(UInt32 _id)

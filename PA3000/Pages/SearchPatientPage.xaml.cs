@@ -157,6 +157,9 @@ namespace PA3000
 
         private void SavePatientBtn_Click(object sender, RoutedEventArgs e)
         {
+            if (currentPatient == null)
+                return;
+
             if (!currentPatient.Dirty) // nothing changed
                 return;
 

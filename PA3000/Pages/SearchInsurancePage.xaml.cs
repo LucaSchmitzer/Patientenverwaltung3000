@@ -73,6 +73,9 @@ namespace PA3000
 
         private void SaveInsuranceBtn_Click(object sender, RoutedEventArgs e)
         {
+            if (currentInsurance == null)
+                return;
+
             if (!currentInsurance.Dirty) // nothing changed
                 return;
 
